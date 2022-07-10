@@ -1,0 +1,28 @@
+.section-hero{
+    height:80vh;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.section-hero>div{
+    /* margin: 0 15rem; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.section-hero>div>div>h1{
+    font-weight: 400;
+    font-size: 8rem;
+}
+.hero-items{
+    max-width: 50%;
+}
+.hero-items>*{
+    margin: 1.5rem 0rem;
+}
+.hero-items>div>p:last-child{
+    letter-spacing: .4rem;
+}

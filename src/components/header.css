@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    min-height: 5rem;
+    text-transform: capitalize;
+    /* display: flex; */
+    /* align-items: center; */
+    list-style: none;
+}
+.nav{
+    margin: auto;
+    max-width: 80%;
+    display: flex;
+    min-height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+.nav-items{
+    display: flex;
+    text-decoration: none;
+    display: flex;
+    min-width: 75%;
+    justify-content: flex-end;
+    list-style: none;
+}
+.nav-items >li{
+    margin:0 1.5rem;
+}
