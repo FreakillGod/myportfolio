@@ -1,11 +1,18 @@
 .cloud{
-    background-color: blanchedalmond;
+    /* background-color: red; */
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items:center;
     padding: 1rem;
-    margin: 2rem 0;
+    margin: .5rem 0;
+}
+.cloud-title{
+    min-width: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .cl-image-wrapper{
     width: 4rem;
@@ -15,4 +22,9 @@
 .cl-image{
     width: 100%;
     height: 100%;
+}
+.lvl-bar{
+    border-radius: 1rem;
+    height: .5rem;
+    margin: 0 auto 0 1rem;
 }

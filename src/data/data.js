@@ -114,8 +114,8 @@ export const skills_back = [
     lvl: "8/10",
   },
   {
-    name: "Docker",
-    url: "https://user-images.githubusercontent.com/2771251/132473388-9f0ff8d9-7bbb-47e5-b45f-9634d86a0dff.png",
+    name: "GraphQL",
+    url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/graphql/graphql-plain.svg",
     lvl: "7/10",
   },
   {
@@ -129,8 +129,8 @@ export const skills_back = [
     lvl: "6/10",
   },
   {
-    name: "GraphQL",
-    url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/graphql/graphql-plain.svg",
+    name: "Docker",
+    url: "https://user-images.githubusercontent.com/2771251/132473388-9f0ff8d9-7bbb-47e5-b45f-9634d86a0dff.png",
     lvl: "6/10",
   },
 ];

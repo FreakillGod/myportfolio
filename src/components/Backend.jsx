@@ -7,7 +7,7 @@ import CloudComp from './minicomponents/CloudComp'
 const Backend = () => {
   return (
     <>
-      <section>
+      <section className='section-wrapper'>
         <div className='others'>
           <h3>Backend {"&"} Cloud</h3>
         </div>
