@@ -1,13 +1,13 @@
-section {
+.testmonials {
     /* width: 90vw; */
     margin: 5rem auto;
     padding: 5rem 0;
     /* max-width: var(--max-width); */
-    background: #fbedff;
+    background: #fbf7ff;
   }
   
   @media screen and (min-width: 992px) {
-    .section {
+    .testmonials {
       /* width: 95vw; */
     }
   }
@@ -32,7 +32,7 @@ section {
     margin-right: 1rem;
     font-weight: 700;
   }
-  .section-center {
+  .testmonials-center {
     margin: 0 auto;
     margin-top: 4rem;
     width: 80vw;

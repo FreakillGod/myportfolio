@@ -1,0 +1,29 @@
+.others {
+  margin: 5rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  /* background-color: blue; */
+}
+.others>h3{
+  margin-bottom: 4rem;
+}
+.tech-wrapper{
+  display: flex;
+}
+.backend-tech {
+  /* background-color: cyan; */
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cloud-tech {
+  flex: 1;
+}

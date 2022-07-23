@@ -29,11 +29,11 @@ const Testimonials = () => {
   }, [index])
 
   return (
-    <section className='section'>
+    <section className='testmonials'>
       <div className='title'>
         <h4>/ Testimonials</h4>
       </div>
-      <div className="section-center">
+      <div className="testmonials-center">
         {people.map((person, personIndex) => {
           const { id, name, image, quote, title } = person;
 
