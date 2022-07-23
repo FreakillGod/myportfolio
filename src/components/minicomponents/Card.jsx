@@ -9,9 +9,8 @@ const Card = ({data}) => {
             <div className='image-container'>
                 <img className='card-image' src={url} alt="logo" />
             </div>
-            <p>lvl</p>
-            <p>{lvl}</p>
-            
+            {/* <p>lvl</p> */}
+            <p className='lvl'>{lvl}</p>
         </div>
     )
 }

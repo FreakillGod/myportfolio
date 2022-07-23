@@ -9,7 +9,7 @@ const Backend = ({ item }) => {
             <div className='backend-image-wrapper'>
                 <img className='back-image' src={url} alt='lol' />
             </div>
-            <p>{lvl}</p>
+            <p className='bk_lvl'>{lvl}</p>
         </div>
     )
 }

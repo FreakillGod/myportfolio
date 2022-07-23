@@ -45,3 +45,7 @@ li{
 p{
   font-size: 1.5rem;
 }
+.lvl{
+  font-weight: 600;
+  color: rgb(44, 0, 138);
+}

@@ -129,23 +129,13 @@ export const skills_back = [
     lvl: "6/10",
   },
   {
-    name: "Graphql",
+    name: "GraphQL",
     url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/graphql/graphql-plain.svg",
     lvl: "6/10",
   },
 ];
 
 export const cloud = [
-  {
-    name: "AWS ECS",
-    url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-    lvl: "6/10",
-  },
-  {
-    name: "AWS EC2",
-    url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-    lvl: "6/10",
-  },
   {
     name: "Vercel",
     url: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
@@ -165,6 +155,16 @@ export const cloud = [
     name: "Linux",
     url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/linux/linux-original.svg",
     lvl: "vg",
+  },
+  {
+    name: "AWS ECS",
+    url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    lvl: "good",
+  },
+  {
+    name: "AWS EC2",
+    url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    lvl: "good",
   },
 ];
 

@@ -29,6 +29,10 @@
   width: 90%;
   height: 90%;
 }
+.bk_lvl{
+  font-weight: 600;
+  color: rgb(44, 0, 138);
+}
 
 @keyframes pop {
   0% {
