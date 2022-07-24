@@ -1,0 +1,13 @@
+.experience-wrapper{
+    background-color: aliceblue;
+    width: 95%;
+    margin: auto;
+}
+
+.time-line{
+    margin: auto;
+    width: .5rem;
+    height: 80vh;
+    background-color: red;
+    position: relative;
+}

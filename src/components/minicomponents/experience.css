@@ -1,0 +1,33 @@
+.company-wrapper{
+    background-color: yellow;
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    padding: 1rem;
+    border-radius: 20px 20px 20px 20px;
+    width: 50rem;
+    height: 10rem;
+    z-index: 5;
+}
+.company-wrapper::after{
+    content: "";
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    background-color: yellow;
+    transform: rotate(45deg);
+    top: 2.5rem;
+    left: -1rem;
+    z-index: 1;
+}
+.company-wrapper::before{
+    content: "";
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: red;
+    left: -3.2rem;
+    top: 3rem;
+    z-index: 1;
+}

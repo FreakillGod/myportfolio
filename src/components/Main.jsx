@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <main className='main'>
             <h2 className='skills-section'>Skills</h2>
-            <h3>Frontend</h3>
+            <h3><span>Frontend</span></h3>
             <div className='main-container' id='#main'>
                 <div className='card-wrapper'>
                     {skills_front.map((data, i) => (<Card key={i} data={data} />))}

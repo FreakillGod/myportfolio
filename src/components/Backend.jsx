@@ -9,7 +9,7 @@ const Backend = () => {
     <>
       <section className='section-wrapper'>
         <div className='others'>
-          <h3>Backend {"&"} Cloud</h3>
+          <h3><span>Backend {"&"} Cloud</span></h3>
         </div>
         <div className='tech-wrapper'>
           <div className='backend-tech'>
