@@ -18,9 +18,14 @@ const Backend = () => {
             })}
           </div>
           <div className='cloud-tech'>
-            {cloud.map((item, i) => {
-              return (<CloudComp key={i} item={item} />)
-            })}
+            <div className='cloud-holder'>
+              <div className='cloud-holder-title'><span>cloud</span><span>techs</span></div>
+              <ul className='cloud-ul'>
+                {cloud.map((item, i) => {
+                  return (<CloudComp key={i} item={item} />)
+                })}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

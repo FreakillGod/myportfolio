@@ -12,6 +12,7 @@
 }
 .main-container {
   padding: 2rem 0;
+  margin: 10rem 0;
   background: rgb(219, 209, 255);
   background: linear-gradient(
     90deg,
@@ -21,8 +22,8 @@
     rgba(214, 203, 255, 1) 100%
   );
 }
-.main-container > h3 {
-  margin: 1rem 0;
+.main > h3 {
+  margin: 5rem 0 -5rem 0;
 }
 .card-wrapper {
   margin: 3rem 0;

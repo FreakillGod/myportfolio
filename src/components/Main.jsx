@@ -6,9 +6,9 @@ import Card from "./minicomponents/Card"
 const Main = () => {
     return (
         <main className='main'>
-            <h2>Skills</h2>
+            <h2 className='skills-section'>Skills</h2>
+            <h3>Frontend</h3>
             <div className='main-container' id='#main'>
-                <h3>Frontend</h3>
                 <div className='card-wrapper'>
                     {skills_front.map((data, i) => (<Card key={i} data={data} />))}
                 </div>

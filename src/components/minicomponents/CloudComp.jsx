@@ -4,17 +4,14 @@ import "./cloud.css"
 const CloudComp = ({ item }) => {
   const { name, url, lvl } = item;
   return (
-    <div className='cloud'>
-      <div className='cloud-title'>
-        <div className='cl-image-wrapper'>
-          <img className='cl-image' src={url} alt={name} />
-        </div>
-        <h6>{name}</h6>
+    <li className='cloud-li'>
+      <div className='cl-image-wrapper'>
+        <img className='cl-image' src={url} alt={name} />
+        <p className='lvl'>{name}</p>
       </div>
-      <p className={`${lvl} lvl-bar`}></p>
-      <p className='bk_lvl'>{`${lvl === "vg" ? "7/10" : "6/10"}`}</p>
-    </div>
+    </li>
   )
 }
 
 export default CloudComp
+// 729.600
