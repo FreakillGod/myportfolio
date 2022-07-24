@@ -1,8 +1,8 @@
-import React from 'react'
-import { skills_front, skills_back, experience, cloud } from '../data/data'
-import "./Backend.css"
-import BackendCard from './minicomponents/Backend'
-import CloudComp from './minicomponents/CloudComp'
+import React from 'react';
+import { skills_front, skills_back, experience, cloud } from '../data/data';
+import "./Backend.css";
+import BackendCard from './minicomponents/Backend';
+import CloudComp from './minicomponents/CloudComp';
 
 const Backend = () => {
   return (
@@ -19,7 +19,7 @@ const Backend = () => {
           </div>
           <div className='cloud-tech'>
             <div className='cloud-holder'>
-              <div className='cloud-holder-title'><span>cloud</span><span>techs</span></div>
+              <div className='cloud-holder-title'>cloud <br /> techs</div>
               <ul className='cloud-ul'>
                 {cloud.map((item, i) => {
                   return (<CloudComp key={i} item={item} />)

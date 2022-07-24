@@ -37,7 +37,7 @@ export const skills_front = [
   {
     name: "CSS",
     url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg",
-    lvl: "8/10",
+    lvl: "9/10",
   },
   {
     name: "React native",
@@ -45,9 +45,9 @@ export const skills_front = [
     lvl: "8/10",
   },
   {
-    name: "SASS",
+    name: "SCSS",
     url: "https://camo.githubusercontent.com/1c0baac9fd7a4e4876e93a0d1ceb0fb2a4a156d8ce075c472f000327a7bb40e6/68747470733a2f2f692e696d6775722e636f6d2f6568576150544b2e706e67",
-    lvl: "7/10",
+    lvl: "8/10",
   },
   {
     name: "Next js",
@@ -86,11 +86,6 @@ export const skills_back = [
   {
     name: "mongoDB",
     url: "https://camo.githubusercontent.com/598855eeebcac0e4f1de199659c7b72a67c68491c792d30d46b46d008cbc87c3/68747470733a2f2f692e696d6775722e636f6d2f307a6a446e58772e706e67",
-    lvl: "8/10",
-  },
-  {
-    name: "Github",
-    url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg",
     lvl: "8/10",
   },
   {
@@ -134,37 +129,42 @@ export const cloud = [
   {
     name: "Vercel",
     url: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
-    lvl: "vg",
+    lvl: "8/10",
+  },
+  {
+    name: "Github",
+    url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg",
+    lvl: "8/10",
   },
   {
     name: "netlify",
     url: "https://camo.githubusercontent.com/46c7a01036611b3a12ce6cce6d122d43786c882d537aed3b51c936e501e9581b/68747470733a2f2f692e696d6775722e636f6d2f626261776832462e706e67",
-    lvl: "vg",
+    lvl: "8/10",
   },
   {
     name: "Heroku",
     url: "https://camo.githubusercontent.com/e4395b0183e4ad32891a3d816084fed34fe6c8fb3530a9a70d29e40af0bf3c33/68747470733a2f2f692e696d6775722e636f6d2f483343313638762e706e67",
-    lvl: "vg",
+    lvl: "8/10",
   },
   {
     name: "Git",
     url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-plain.svg",
-    lvl: "excel",
+    lvl: "8/10",
   },
   {
     name: "Linux",
     url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/linux/linux-original.svg",
-    lvl: "vg",
+    lvl: "7/10",
   },
   {
     name: "ECS",
     url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-    lvl: "good",
+    lvl: "7/10",
   },
   {
     name: "EC2",
     url: "https://raw.githubusercontent.com/FreakillGod/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-    lvl: "good",
+    lvl: "7/10",
   },
 ];
 

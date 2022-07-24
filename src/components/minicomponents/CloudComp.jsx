@@ -7,7 +7,7 @@ const CloudComp = ({ item }) => {
     <li className='cloud-li'>
       <div className='cl-image-wrapper'>
         <img className='cl-image' src={url} alt={name} />
-        <p className='lvl'>{name}</p>
+        <p className='lvl cloud-name'>{name}<br/>{lvl}</p>
       </div>
     </li>
   )
